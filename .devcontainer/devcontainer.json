@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "mounts": [
+    "source=${localWorkspaceFolder}/,target=/workspace/,type=bind,consistency=cached",
+    "source=${localWorkspaceFolder}/.config/nvim,target=/root/.config/nvim,type=bind,consistency=cached"
+  ],
+  "appPort": [ "5174:5173", "6791:6791" ],
+  "postCreateCommand": [ "git config --global user.name \"hamilton-labs\"" ],
+  "postCreateCommand": [ "git config --global user.email \"173300401+hamilton-labs@users.noreply.github.com\"" ],
+  "remoteUser": "node"
+}
