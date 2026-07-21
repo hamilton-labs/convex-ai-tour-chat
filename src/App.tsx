@@ -30,7 +30,7 @@ export default function App() {
   return (
     <main className="chat">
       <header>
-        <h1>Convex Chat</h1>
+        <h1> Hamilton Labs AI Chat</h1>
         <p>
           Connected as <strong>{NAME}</strong>
         </p>
